@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+ position: fixed;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: rgba(0,0,0,.15);
+ padding: 5px;
+ display: flex;
+ height: 50px;
+ align-items: center;
+ backdrop-filter: blur(10px);
+}
+
+.name {
+    background: beige;
+    height: 35px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: #222;
+    font-size: 14px; 
+    font-weight: 300;
+}
+
+.input {
+    height: 35px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #222;
+    font-size: 14px; 
+    padding: 0 25px;
+    margin: 10px;
+    display: flex;
+}
+
+.btn {
+    width: 100px;
+    background: #222;
+    height: 35px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 14px; 
+    font-weight: 300;
+}
+.massages {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.massages > li {
+    padding: 10px;
+}
+.massages > li > span {
+    font-weight: 500;
+}
+
+.massages > li:nth-child(odd) {
+    background: #efefef;
+}
